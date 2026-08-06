@@ -14,8 +14,8 @@ elif choice == 2:
         print("*"*i)
 
 elif choice == 3:
-    for i in range(1, row + 1):
-        print(""*(row - i - 1)+"*"*(2*i+1))
+    for i in range(row):
+        print(" "* (row - i - 1) + "*"* (2*i+1))
 
 elif choice == 4:
     for i in range (1, row + 1):
