@@ -21,4 +21,4 @@ elif operator == "/":
 else:
     result = "Invalid operator"
 
-print("first number operator second number", num1, operator,num2, "=", "result", result)
+print("first number operator second number","=",num1, operator,num2, "=", "result", result)
